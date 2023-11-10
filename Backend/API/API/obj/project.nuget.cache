@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MWBgbHH/d1f80h1VzVnRc5vjHos4gBocoorEngibsk+f6UGGCyYIp44NY97upEtbvgEPkAgmuvmUA/AX73IvqQ==",
+  "success": true,
+  "projectFilePath": "/Users/danielle/Desktop/Chat/Backend/API/API/API.csproj",
+  "expectedPackageFiles": [
+    "/Users/danielle/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/danielle/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/danielle/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/danielle/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/danielle/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/danielle/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
