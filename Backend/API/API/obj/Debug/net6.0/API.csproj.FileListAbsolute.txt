@@ -1,0 +1,7 @@
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.csproj.AssemblyReference.cache
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.AssemblyInfoInputs.cache
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.AssemblyInfo.cs
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.csproj.CoreCompileInputs.cache
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cs
+/Users/danielle/Desktop/Chat/Backend/API/API/obj/Debug/net6.0/API.MvcApplicationPartsAssemblyInfo.cache

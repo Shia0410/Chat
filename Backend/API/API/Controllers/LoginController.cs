@@ -13,18 +13,13 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly IUserService _userService; // Inject your user service here
-
-        public UserController(IUserService userService)
-        {
-            _userService = userService;
-        }
+        UserService us = new();
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] UserLoginModel model)
         {
             // Implement login logic
-            var user = _userService.Login(model._username, model._password);
+            var user = us.Login(model._username, model._password);
 
             if (user == null)
             {
@@ -33,7 +28,7 @@ namespace API.Controllers
             }
 
             // Return appropriate HTTP status code and user data
-            return Ok(new { Username = user.Username, /* other user data */ });
+            return Ok(new { Username = user._username, /* other user data */ });
         }
     }
 
