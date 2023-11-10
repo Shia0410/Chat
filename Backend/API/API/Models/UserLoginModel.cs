@@ -3,12 +3,13 @@ namespace API.Models
 {
 	public class UserLoginModel
 	{
-		public string _username;
-		public string _password;
-		public UserLoginModel(string Username, string Password)
+		public string ?_username
 		{
-			_username = Username;
-			_password = Password;
+			get;set;
+		}
+		public string ?_password
+		{
+			get;set;
 		}
 	}
 }

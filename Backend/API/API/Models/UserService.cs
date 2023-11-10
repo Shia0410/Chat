@@ -9,10 +9,10 @@ namespace API.Models
             {
                 if (password == "admin")
                 {
-                    return true;
+                    return false;
                 }
             }
-            return false;
+            return true;
         }
 
         public bool Register(string username, string password)

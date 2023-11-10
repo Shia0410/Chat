@@ -19,7 +19,7 @@ namespace API.Controllers
         public IActionResult Login([FromBody] UserLoginModel model)
         {
 
-            if (us.Login(model._username, model._password))
+            if (us.Login(model._username!, model._password!))
             {
                 // Return appropriate HTTP status code for login failure
                 return BadRequest("Invalid credentials");
