@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -23,9 +25,16 @@ export default {
   },
   methods: {
     login() {
-      // Add your login logic here
-      console.log('Login clicked');
-      // You can integrate with your backend for authentication
+      axios.post('http://localhost:5000/api/user/login', {
+        username: this.username,
+        password: this.password
+      }
+      ).then(response => {
+        console.log("Login Success");
+      }).catch(error => {
+        console.error("Login failed", error);
+      });
+      
     }
   }
 };
