@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using API.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,7 +19,6 @@ namespace API.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] UserLoginModel model)
         {
-
             if (us.Login(model._username!, model._password!))
             {
                 // Return appropriate HTTP status code for login failure
