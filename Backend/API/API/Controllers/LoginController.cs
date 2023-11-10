@@ -18,17 +18,15 @@ namespace API.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] UserLoginModel model)
         {
-            // Implement login logic
-            var user = us.Login(model._username, model._password);
 
-            if (user == null)
+            if (us.Login(model._username, model._password))
             {
                 // Return appropriate HTTP status code for login failure
                 return BadRequest("Invalid credentials");
             }
 
             // Return appropriate HTTP status code and user data
-            return Ok(new { Username = user._username, /* other user data */ });
+            return Ok(new { Username = model._username, /* other user data */ });
         }
     }
 
